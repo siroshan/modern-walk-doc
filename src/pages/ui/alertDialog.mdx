@@ -1,0 +1,103 @@
+import { Tab, Tabs } from 'nextra-theme-docs';
+
+import { AlertDialog } from '../../components/UI/Molucules/AlertDialog/AlertDialog';
+import { AlertDialogTrigger } from '../../components/UI/Molucules/AlertDialog/AlertDialogTrigger';
+import { AlertDialogContent } from '../../components/UI/Molucules/AlertDialog/AlertDialogContent';
+import { AlertDialogHeader } from '../../components/UI/Molucules/AlertDialog/AlertDialogHeader';
+import { AlertDialogTitle } from '../../components/UI/Molucules/AlertDialog/AlertDialogTitle';
+import { AlertDialogDescription } from '../../components/UI/Molucules/AlertDialog/AlertDialogDescription';
+import { AlertDialogFooter } from '../../components/UI/Molucules/AlertDialog/AlertDialogFooter';
+import { AlertDialogCancel } from '../../components/UI/Molucules/AlertDialog/AlertDialogCancel';
+import { AlertDialogAction } from '../../components/UI/Molucules/AlertDialog/AlertDialogAction';
+import { Button } from '../../components/UI/Atoms/Button';
+
+# Alert Dialog
+
+**Import**
+
+```js
+import { AlertDialog } from '@components/UI/Molucules/AlertDialog/AlertDialog';
+import { AlertDialogTrigger } from '@components/UI/Molucules/AlertDialog/AlertDialogTrigger';
+import { AlertDialogContent } from '@components/UI/Molucules/AlertDialog/AlertDialogContent';
+import { AlertDialogHeader } from '@components/UI/Molucules/AlertDialog/AlertDialogHeader';
+import { AlertDialogTitle } from '@components/UI/Molucules/AlertDialog/AlertDialogTitle';
+import { AlertDialogDescription } from '@components/UI/Molucules/AlertDialog/AlertDialogDescription';
+import { AlertDialogFooter } from '@components/UI/Molucules/AlertDialog/AlertDialogFooter';
+import { AlertDialogCancel } from '@components/UI/Molucules/AlertDialog/AlertDialogCancel';
+import { AlertDialogAction } from '@components/UI/Molucules/AlertDialog/AlertDialogAction';
+```
+
+### Documentation
+
+---
+
+**Usage**
+
+<Tabs items={['Preview', 'Code']}>
+  <Tab>
+    <AlertDialog>
+      <AlertDialogTrigger asChild>
+        <Button variant='dotted' size='sm'>
+          Clear
+        </Button>
+      </AlertDialogTrigger>
+      <AlertDialogContent>
+        <AlertDialogHeader>
+          <AlertDialogTitle>Clear Cart</AlertDialogTitle>
+          <AlertDialogDescription>
+            All items in your cart will be removed! Please confirm to proceed.
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+          <AlertDialogCancel>
+            <Button
+              variant='danger'
+              className='border border-danger bg-transparent text-danger'
+            >
+              Cancel
+            </Button>
+          </AlertDialogCancel>
+          <AlertDialogAction>
+            <Button variant='danger'>
+              Confirm
+            </Button>
+          </AlertDialogAction>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
+  </Tab>
+  <Tab>
+    ```js
+    <AlertDialog>
+      <AlertDialogTrigger asChild>
+        <Button variant='dotted' size='sm'>
+          Clear
+        </Button>
+      </AlertDialogTrigger>
+      <AlertDialogContent>
+        <AlertDialogHeader>
+          <AlertDialogTitle>Clear Cart</AlertDialogTitle>
+          <AlertDialogDescription>
+            All items in your cart will be removed! Please confirm to proceed.
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+          <AlertDialogCancel>
+            <Button
+              variant='danger'
+              className='border border-danger bg-transparent text-danger'
+            >
+              Cancel
+            </Button>
+          </AlertDialogCancel>
+          <AlertDialogAction>
+            <Button variant='danger' >
+              Confirm
+            </Button>
+          </AlertDialogAction>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
+    ```
+  </Tab>
+</Tabs>
