@@ -1,7 +1,9 @@
 {
+  "alertDialog": "Alert Dialog",
   "button": "Button",
-  "typography": "Typography",
-  "popover": "Popover",
+  "input": "Input",
   "label": "Label",
-  "input": "Input"
+  "popover": "Popover",
+  "skeleton": "Skeleton",
+  "typography": "Typography"
 }

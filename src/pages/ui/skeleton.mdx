@@ -1,0 +1,41 @@
+import { Tab, Tabs } from 'nextra-theme-docs';
+import { Skeleton } from '../../components/UI/Atoms/Skeleton';
+
+# Skeleton
+
+**Import**
+
+```js
+import { Skeleton } from '@components/UI/Atoms/Skeleton';
+```
+
+### Documentation
+
+---
+
+**Usage**
+
+<Tabs items={['Preview', 'Code']}>
+  <Tab>
+    <div className='w-full flex justify-center h-56'>
+      <div className='flex items-center space-x-4'>
+        <Skeleton className='h-12 w-12 rounded-full' />
+        <div className='space-y-2'>
+          <Skeleton className='h-4 w-[250px]' />
+          <Skeleton className='h-4 w-[200px]' />
+        </div>
+      </div>
+    </div>
+  </Tab>
+  <Tab>
+    ```js
+    <div className='flex items-center space-x-4'>
+      <Skeleton className='h-12 w-12 rounded-full' />
+      <div className='space-y-2'>
+        <Skeleton className='h-4 w-[250px]' />
+        <Skeleton className='h-4 w-[200px]' />
+      </div>
+    </div>
+    ```
+  </Tab>
+</Tabs>
