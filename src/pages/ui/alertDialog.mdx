@@ -10,6 +10,7 @@ import { AlertDialogFooter } from '../../components/UI/Molucules/AlertDialog/Ale
 import { AlertDialogCancel } from '../../components/UI/Molucules/AlertDialog/AlertDialogCancel';
 import { AlertDialogAction } from '../../components/UI/Molucules/AlertDialog/AlertDialogAction';
 import { Button } from '../../components/UI/Atoms/Button';
+import { Typography } from '../../components/UI/Atoms/Typography';
 
 # Alert Dialog
 
@@ -47,7 +48,9 @@ import { AlertDialogAction } from '@components/UI/Molucules/AlertDialog/AlertDia
         <AlertDialogHeader>
           <AlertDialogTitle>Clear Cart</AlertDialogTitle>
           <AlertDialogDescription>
-            All items in your cart will be removed! Please confirm to proceed.
+            <Typography className='text-[#182132]'>
+              All items in your cart will be removed! Please confirm to proceed.
+            </Typography>          
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
@@ -81,7 +84,9 @@ import { AlertDialogAction } from '@components/UI/Molucules/AlertDialog/AlertDia
         <AlertDialogHeader>
           <AlertDialogTitle>Clear Cart</AlertDialogTitle>
           <AlertDialogDescription>
-            All items in your cart will be removed! Please confirm to proceed.
+            <Typography className='text-[#182132]'>
+              All items in your cart will be removed! Please confirm to proceed.
+            </Typography>
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
@@ -102,5 +107,6 @@ import { AlertDialogAction } from '@components/UI/Molucules/AlertDialog/AlertDia
       </AlertDialogContent>
     </AlertDialog>
     ```
+
   </Tab>
 </Tabs>
