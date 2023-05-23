@@ -1,3 +1,88 @@
-# Welcome to UI
- 
-Hello, world!
+import { Tab, Tabs } from 'nextra-theme-docs';
+import { Button } from '../../components/UI/Atoms/Button';
+
+# Button
+
+**Import**
+
+```js
+import { Button } from '@components/UI/Atoms/Button';
+```
+
+### Documentation
+
+---
+
+**Usage**
+
+<Tabs items={['Preview', 'Code']}>
+  <Tab>
+    <Button>Button</Button>
+  </Tab>
+  <Tab>
+    ```js import {Button} from '@components/UI/Atoms/Button';
+    <Button>Button</Button>
+    ```
+  </Tab>
+</Tabs>
+
+### Variants
+
+**Buttons with Different Colors**
+
+<Tabs items={['Preview', 'Code']}>
+  <Tab>
+    <div className='grid grid-cols-6 grid-flow-col gap-4'>
+      <Button>Default</Button>
+      <Button variant='danger'>Danger</Button>
+    </div>
+  </Tab>
+  <Tab>
+    ```js
+    <Button>Button</Button>
+    <Button variant='danger'>Button</Button>
+    ```
+  </Tab>
+</Tabs>
+
+**Buttons with Different Variants**
+
+<Tabs items={['Preview', 'Code']}>
+  <Tab>
+    <div className='grid grid-cols-6 grid-flow-col gap-4'>
+      <Button variant='outline'>Outline</Button>
+      <Button variant='dotted'>Dotted</Button>
+      <Button variant='ghost'>Ghost</Button>
+    </div>
+  </Tab>
+  <Tab>
+    ```js
+    <Button variant='outline'>Outline</Button>
+    <Button variant='dotted'>Dotted</Button>
+    <Button variant='ghost'>Ghost</Button>
+    ```
+  </Tab>
+</Tabs>
+
+**Buttons with Different Sizes**
+
+<Tabs items={['Preview', 'Code']}>
+  <Tab>
+    <Button size='default' className='mr-4'>
+      Default
+    </Button>
+    <Button size='sm' className='mr-4'>
+      Small
+    </Button>
+    <Button size='lg' className='mr-4'>
+      Large
+    </Button>
+  </Tab>
+  <Tab>
+    ```js
+    <Button size='default'>Button</Button>
+    <Button size='sm'>Button</Button>
+    <Button size='lg'>Button</Button>
+    ```
+  </Tab>
+</Tabs>
