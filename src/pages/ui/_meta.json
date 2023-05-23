@@ -1,6 +1,7 @@
 {
   "alertDialog": "Alert Dialog",
   "button": "Button",
+  "checkbox": "Checkbox",
   "input": "Input",
   "label": "Label",
   "popover": "Popover",

@@ -8,14 +8,14 @@
     --foreground: 222.2 47.4% 11.2%;
 
     --background-elephant-grey: 220 23% 95%;
-    --background-elephant-contrast: 210, 14%, 97%;
-    --background-elephant-white: 0, 0%, 78%;
+    --background-elephant-contrast: 210 14% 97%;
+    --background-elephant-white: 0 0% 78%;
 
     --primary: 29 84% 52%;
     --primary-hover: 29 98% 48%;
     --primary-selected: 29 100% 41%;
-    --primary-disabled: 29 84% 81%;
-    --primary-disabled-selected: 29 71% 73%;
+    --primary-inverse-hover: 29 84% 81%;
+    --primary-inverse-hover-selected: 29 71% 73%;
 
     --typography: 219 100% 14%;
     --typography-active-border: 219 16% 56%;

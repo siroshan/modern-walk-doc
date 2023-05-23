@@ -32,8 +32,8 @@ module.exports = {
           hover: 'hsl(var(--primary-hover))',
           selected: 'hsl(var(--primary-selected))',
           disabled: {
-            DEFAULT: 'hsl(var(--primary-disabled))',
-            selected: 'hsl(var(--primary-disabled-selected))',
+            DEFAULT: 'hsl(var(--primary-inverse-hover))',
+            selected: 'hsl(var(--primary-inverse-hover-selected))',
           },
           foreground: 'hsl(var(--primary-foreground))',
         },
