@@ -12,6 +12,8 @@ import { AlertDialogAction } from '../../components/UI/Molucules/AlertDialog/Ale
 import { Button } from '../../components/UI/Atoms/Button';
 import { Typography } from '../../components/UI/Atoms/Typography';
 
+import { X } from 'lucide-react';
+
 # Alert Dialog
 
 **Import**
@@ -46,11 +48,16 @@ import { AlertDialogAction } from '@components/UI/Molucules/AlertDialog/AlertDia
       </AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>
+        <div className='flex justify-between items-center'>
           <AlertDialogTitle>Clear Cart</AlertDialogTitle>
+             <AlertDialogCancel>
+                      <X className='h-6 w-6 stroke-gray-400' />
+          </AlertDialogCancel>
+          </div>
           <AlertDialogDescription>
-            <Typography className='text-[#182132]'>
+            <div className='text-[#182132]'>
               All items in your cart will be removed! Please confirm to proceed.
-            </Typography>          
+            </div>          
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>

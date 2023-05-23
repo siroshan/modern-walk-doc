@@ -29,10 +29,12 @@ import { Popover } from '@components/UI/Atoms/Popover';
   <Tab>
     <Popover>
       <PopoverTrigger asChild>
-        <Button variant='outline' size='sm'>
-          Click
-          <span className='sr-only'>Open popover</span>
-        </Button>
+        <div className='w-full flex justify-center'>
+          <Button variant='outline' size='sm'>
+            Click
+            <span className='sr-only'>Open popover</span>
+          </Button>
+        </div>
       </PopoverTrigger>
       <PopoverContent className='w-80'>
         <div className='grid gap-4'>
@@ -79,6 +81,7 @@ import { Popover } from '@components/UI/Atoms/Popover';
         </div>
       </PopoverContent>
     </Popover>
+
   </Tab>
   <Tab>
     ```js
