@@ -1,4 +1,7 @@
 {
   "button": "Button",
-  "typography": "Typography"
+  "typography": "Typography",
+  "popover": "Popover",
+  "label": "Label",
+  "input": "Input"
 }
